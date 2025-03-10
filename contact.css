@@ -1,0 +1,148 @@
+body {
+    font-family: "42dot Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fcfbf4;
+
+}
+
+
+header {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 40px;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+main {
+    margin-top: 120px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 120px;
+
+
+
+}
+
+
+footer {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 40px;
+    align-items: center;
+}
+
+/* 헤더영역 */
+
+.nav-list {
+    display: inline;
+    color: indianred;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+
+a {
+    /* font-size: 20px; */
+    /* font-weight: 600; */
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-logo {
+    color: indianred;
+}
+
+
+/* 버튼 스타일 */
+.btn-header{
+    color: indianred;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 100px;
+}
+
+.btn-header:hover {
+    color: indianred;
+    border: 1px solid indianred;
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-header:active {
+    background-color: indianred;
+    color: #fff;
+}
+
+/* 메인 */
+.profile-img{
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    background-color: #fff;
+    padding: 100px 80px;
+}
+
+/* margin: 0 auto; -> 왼쪽으로 붙는 것을 방지
+가운데 두고 싶기때문에 양옆은 오토로 주고 늘어나는 만큼 양옆마진을 줘라 */
+
+.sub-heading {
+    font-size: 14px;
+    color: indianred;
+    padding-bottom: 8px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 300;
+    /* color: ; */
+    padding-bottom: 20px;
+}
+
+.sub-title {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    color: indianred;
+}
+
+.sns {
+    font-size: 20px;
+    font-weight: 300; 
+    padding-bottom: 10px;
+}
+
+.sns:hover {
+    font-weight: 400;
+    color: indianred;
+}
+
+
